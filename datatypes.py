@@ -27,3 +27,6 @@ print(type(fz))
 print(type(ba))
 print(type(r))
 print(type(nt))
+
+
+

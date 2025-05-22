@@ -12,7 +12,15 @@ fz=frozenset({10,20,30})
 ba=bytearray([12,23,45])
 r=range(50)
 nt=None
+a=101
+b=0b111
+c=0o145
+d=0xAB
 
+print(a)
+print(b)
+print(c)
+print(d)
 print(type(eid))
 print(type(esal))
 print(type(ename))

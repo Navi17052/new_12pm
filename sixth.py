@@ -5,8 +5,7 @@ print(b)
 print(type(a))
 print(type(b))
 print(hex(a))
-#print(hex(b))
+
 print(oct(a))
-#print(oct(b))
+
 print(bin(a))
-#print(bin(b))

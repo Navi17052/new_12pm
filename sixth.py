@@ -1,0 +1,12 @@
+a=10
+b=10,20
+print(a)
+print(b)
+print(type(a))
+print(type(b))
+print(hex(a))
+#print(hex(b))
+print(oct(a))
+#print(oct(b))
+print(bin(a))
+#print(bin(b))

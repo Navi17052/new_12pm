@@ -1,0 +1,5 @@
+t1=()
+t2=(10,20.5,10,"ravi",False,{})
+print(t1)
+print(t2)
+print(type(t2))

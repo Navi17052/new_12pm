@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 list=[]
 
 #create
@@ -23,3 +24,19 @@ l2[3]='rahul gandi'
      #DELETE
 del l2[4]
      
+=======
+eids=[101,102,103,101]
+for eid in eids:
+    print(eid)
+
+
+ #tuple program
+eids=(101,102,103,101)
+for eid in eids:
+    print(eid)
+
+    # set program
+eids={101,102,103,101}
+for eid in eids:
+    print(eid)    
+>>>>>>> c01de8cf37a1c839c49c85f700803b41ad9ea472

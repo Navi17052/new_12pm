@@ -1,0 +1,148 @@
+"""Uids=(
+    {"id": 1, "name": "Alice Johnson", "email": "alice.johnson@example.com", "phone": "555-101-0001", "department": "Engineering"},
+    {"id": 2, "name": "Bob Smith", "email": "bob.smith@example.com", "phone": "555-101-0002", "department": "HR"},
+    {"id": 3, "name": "Carol Lee", "email": "carol.lee@example.com", "phone": "555-101-0003", "department": "Sales"},
+    {"id": 4, "name": "David Brown", "email": "david.brown@example.com", "phone": "555-101-0004", "department": "IT"},
+    {"id": 5, "name": "Eva Davis", "email": "eva.davis@example.com", "phone": "555-101-0005", "department": "Finance"},
+    {"id": 6, "name": "Frank Moore", "email": "frank.moore@example.com", "phone": "555-101-0006", "department": "Marketing"},
+    {"id": 7, "name": "Grace Taylor", "email": "grace.taylor@example.com", "phone": "555-101-0007", "department": "Legal"},
+    {"id": 8, "name": "Henry Wilson", "email": "henry.wilson@example.com", "phone": "555-101-0008", "department": "Operations"},
+    {"id": 9, "name": "Ivy Clark", "email": "ivy.clark@example.com", "phone": "555-101-0009", "department": "Engineering"},
+    {"id": 10, "name": "Jack White", "email": "jack.white@example.com", "phone": "555-101-0010", "department": "HR"},
+    {"id": 11, "name": "Kim Lewis", "email": "kim.lewis@example.com", "phone": "555-101-0011", "department": "Sales"},
+    {"id": 12, "name": "Liam Walker", "email": "liam.walker@example.com", "phone": "555-101-0012", "department": "IT"},
+    {"id": 13, "name": "Mia Hall", "email": "mia.hall@example.com", "phone": "555-101-0013", "department": "Finance"},
+    {"id": 14, "name": "Noah Allen", "email": "noah.allen@example.com", "phone": "555-101-0014", "department": "Marketing"},
+    {"id": 15, "name": "Olivia Young", "email": "olivia.young@example.com", "phone": "555-101-0015", "department": "Legal"},
+    {"id": 16, "name": "Paul Hernandez", "email": "paul.hernandez@example.com", "phone": "555-101-0016", "department": "Operations"},
+    {"id": 17, "name": "Quinn King", "email": "quinn.king@example.com", "phone": "555-101-0017", "department": "Engineering"},
+    {"id": 18, "name": "Rachel Wright", "email": "rachel.wright@example.com", "phone": "555-101-0018", "department": "HR"},
+    {"id": 19, "name": "Samuel Lopez", "email": "samuel.lopez@example.com", "phone": "555-101-0019", "department": "Sales"},
+    {"id": 20, "name": "Tina Hill", "email": "tina.hill@example.com", "phone": "555-101-0020", "department": "IT"},
+    {"id": 100, "name": "Zoe Nash", "email": "zoe.nash@example.com", "phone": "555-101-0100", "department": "Marketing"},
+    )"""
+"""for ids in Uids:
+    print(ids['id'],ids['phone'])"""
+
+
+"""i=0
+while i<=20:
+    print(Uids[i]['name'],"=",Uids[i]['email'])
+    i=i+1"""
+employees=[{"eid":1,"ename":"Glory","gender":"Non-binary"},
+{"eid":2,"ename":"Micah","gender":"Male"},
+{"eid":3,"ename":"Job","gender":"Genderqueer"},
+{"eid":4,"ename":"Opalina","gender":"Female"},
+{"eid":5,"ename":"Roderick","gender":"Male"},
+{"eid":6,"ename":"Jameson","gender":"Male"},
+{"eid":7,"ename":"Isidro","gender":"Male"},
+{"eid":8,"ename":"Bret","gender":"Male"},
+{"eid":9,"ename":"Estelle","gender":"Female"},
+{"eid":10,"ename":"Molly","gender":"Female"},
+{"eid":11,"ename":"Sherlocke","gender":"Agender"},
+{"eid":12,"ename":"Wilfred","gender":"Male"},
+{"eid":13,"ename":"Lucais","gender":"Male"},
+{"eid":14,"ename":"Foster","gender":"Male"},
+{"eid":15,"ename":"Reg","gender":"Male"},
+{"eid":16,"ename":"Iolande","gender":"Female"},
+{"eid":17,"ename":"Tobias","gender":"Male"},
+{"eid":18,"ename":"Colline","gender":"Female"},
+{"eid":19,"ename":"Valene","gender":"Female"},
+{"eid":20,"ename":"Tremaine","gender":"Male"},
+{"eid":21,"ename":"Minne","gender":"Genderqueer"},
+{"eid":22,"ename":"Casandra","gender":"Female"},
+{"eid":23,"ename":"Sydney","gender":"Female"},
+{"eid":24,"ename":"Bette","gender":"Female"},
+{"eid":25,"ename":"Yolande","gender":"Female"},
+{"eid":26,"ename":"Shannan","gender":"Male"},
+{"eid":27,"ename":"Gavan","gender":"Genderfluid"},
+{"eid":28,"ename":"Vlad","gender":"Agender"},
+{"eid":29,"ename":"Barnabas","gender":"Male"},
+{"eid":30,"ename":"Annadiane","gender":"Female"},
+{"eid":31,"ename":"Broddy","gender":"Male"},
+{"eid":32,"ename":"Estell","gender":"Female"},
+{"eid":33,"ename":"Chantal","gender":"Female"},
+{"eid":34,"ename":"Ludwig","gender":"Male"},
+{"eid":35,"ename":"Kania","gender":"Female"},
+{"eid":36,"ename":"Brandon","gender":"Male"},
+{"eid":37,"ename":"Garth","gender":"Male"},
+{"eid":38,"ename":"Mireielle","gender":"Female"},
+{"eid":39,"ename":"Binnie","gender":"Female"},
+{"eid":40,"ename":"Sebastiano","gender":"Male"},
+{"eid":41,"ename":"Lana","gender":"Female"},
+{"eid":42,"ename":"Bevin","gender":"Male"},
+{"eid":43,"ename":"Garrard","gender":"Male"},
+{"eid":44,"ename":"Gilli","gender":"Female"},
+{"eid":45,"ename":"Cletis","gender":"Male"},
+{"eid":46,"ename":"Rhonda","gender":"Female"},
+{"eid":47,"ename":"Chet","gender":"Male"},
+{"eid":48,"ename":"Hilary","gender":"Male"},
+{"eid":49,"ename":"Alain","gender":"Male"},
+{"eid":50,"ename":"Bridgette","gender":"Female"},
+{"eid":51,"ename":"Odie","gender":"Male"},
+{"eid":52,"ename":"Lishe","gender":"Female"},
+{"eid":53,"ename":"Jacinthe","gender":"Female"},
+{"eid":54,"ename":"Lucinda","gender":"Female"},
+{"eid":55,"ename":"Doralin","gender":"Female"},
+{"eid":56,"ename":"Baily","gender":"Male"},
+{"eid":57,"ename":"Bud","gender":"Male"},
+{"eid":58,"ename":"Antin","gender":"Male"},
+{"eid":59,"ename":"Sayre","gender":"Female"},
+{"eid":60,"ename":"Debora","gender":"Female"},
+{"eid":61,"ename":"Chryste","gender":"Female"},
+{"eid":62,"ename":"Broddy","gender":"Agender"},
+{"eid":63,"ename":"Billi","gender":"Female"},
+{"eid":64,"ename":"Evita","gender":"Female"},
+{"eid":65,"ename":"Ingar","gender":"Male"},
+{"eid":66,"ename":"Alejoa","gender":"Male"},
+{"eid":67,"ename":"Arden","gender":"Bigender"},
+{"eid":68,"ename":"Cassie","gender":"Male"},
+{"eid":69,"ename":"Farrell","gender":"Male"},
+{"eid":70,"ename":"Noreen","gender":"Female"},
+{"eid":71,"ename":"Berton","gender":"Male"},
+{"eid":72,"ename":"Lula","gender":"Female"},
+{"eid":73,"ename":"Mady","gender":"Female"},
+{"eid":74,"ename":"Prue","gender":"Female"},
+{"eid":75,"ename":"Elia","gender":"Male"},
+{"eid":76,"ename":"Rowan","gender":"Male"},
+{"eid":77,"ename":"Arlyn","gender":"Female"},
+{"eid":78,"ename":"Marmaduke","gender":"Male"},
+{"eid":79,"ename":"Caz","gender":"Male"},
+{"eid":80,"ename":"Mattie","gender":"Female"},
+{"eid":81,"ename":"Dannie","gender":"Male"},
+{"eid":82,"ename":"Norri","gender":"Female"},
+{"eid":83,"ename":"Tricia","gender":"Female"},
+{"eid":84,"ename":"Pauly","gender":"Male"},
+{"eid":85,"ename":"Jo-ann","gender":"Female"},
+{"eid":86,"ename":"Obadiah","gender":"Male"},
+{"eid":87,"ename":"Christalle","gender":"Female"},
+{"eid":88,"ename":"Derby","gender":"Male"},
+{"eid":89,"ename":"Calley","gender":"Female"},
+{"eid":90,"ename":"Ammamaria","gender":"Female"},
+{"eid":91,"ename":"Christel","gender":"Female"},
+{"eid":92,"ename":"Oswell","gender":"Male"},
+{"eid":93,"ename":"Reynolds","gender":"Male"},
+{"eid":94,"ename":"Sergent","gender":"Male"},
+{"eid":95,"ename":"Farand","gender":"Female"},
+{"eid":96,"ename":"Ursa","gender":"Bigender"},
+{"eid":97,"ename":"Cassandry","gender":"Female"},
+{"eid":98,"ename":"Park","gender":"Polygender"},
+{"eid":99,"ename":"Cordula","gender":"Female"},
+{"eid":100,"ename":"Nevil","gender":"Bigender"}]
+
+# display only employee names using for and while
+
+"""for emp in employees:
+    #print(employees)
+    print(emp['ename'])
+"""
+"""i=0
+while i<=len(employees)-1:
+    # print(employees[i]['ename']," -- ",employees[i]['gender'])
+    i=i+1"""
+
+#display only male employees
+for employee in employees:
+    if employee['gender']=='male':
+        print(employee['ename'])
+    

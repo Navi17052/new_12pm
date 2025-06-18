@@ -1,0 +1,10 @@
+enames=["rg","sg","pg","nm","pg"]
+ids=[1,2,3,4,5]
+index=enames.index("pg")
+print(index)
+count=enames.count("pg")
+print(count)
+extend=enames.extend(["pg","sg"])
+print(enames)
+id=ids.extend([6,7,8])
+print(ids)

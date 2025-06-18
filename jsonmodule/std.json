@@ -1,0 +1,8 @@
+[
+    {"std_id":101,"std_name":"mahi","std_city":"anantapur","std_fee":100000},
+    {"std_id":102,"std_name":"mahesh","std_city":"kurnool","std_fee":102000},
+    {"std_id":103,"std_name":"maruthi","std_city":"chitoor","std_fee":110000},
+    {"std_id":104,"std_name":"mallesh","std_city":"kadapa","std_fee":50000},
+    {"std_id":105,"std_name":"mahendra","std_city":"nandyal","std_fee":90000},
+    {"std_id":106,"std_name":"maneesha","std_city":"vijayawada","std_fee":100000}
+]
